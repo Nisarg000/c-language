@@ -1,0 +1,2 @@
+
+The number 12 which you have entered is an abundant number.
