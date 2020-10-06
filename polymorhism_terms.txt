@@ -1,0 +1,4 @@
+Polymorphism and their additional terms :-
+
+1) Compile time :- early binding,overloading.
+2) Runtime      :- late binding,overriding

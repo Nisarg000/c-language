@@ -1,0 +1,111 @@
+Loop:-
+-----
+printf("royal");
+printf("royal");
+printf("royal");
+printf("royal");
+printf("royal");
+
+Type's of Loop:-
+---------------
+
+1) Entry Controller		2) Exit Controller
+---> for			---> do...while
+---> while
+------------------------------
+Parts of Loop[for/while/do...while]:-
+---------------------------------------
+1) Initialisation
+2) condition
+3) operation
+4) inc / dec
+
+printf("\nRoyal");// i=1
+printf("\nRoyal");// i=i+1 / i++
+printf("\nRoyal");
+printf("\nRoyal");
+printf("\nRoyal");// i<=5
+---------------------------------------
+
+for loop structure:-
+--------------------
+	1		2(1)	    4(3)	
+for(Initialisation ; condition ; inc / dec)
+{
+	      3(2)	
+	// operation
+}
+----------------------------
+void main()
+{
+	int i,sum=0;
+	clrscr();
+
+	for(i=1;i<=50;i++)
+	{
+		if(i%2==1)
+		{	
+			sum=sum+i;
+			printf("\n%d",i);
+		}	
+	}
+	printf("\nSum : %d",sum);
+	printf("\nI : %d",i);//
+
+	getch();
+}
+
+
+
+
+
+void main()
+{
+	int i,no;
+	clrscr();
+	printf("\nEnter No : ");
+	scanf("%d",&no);//5
+	for(i=1;i<=10;i++)
+	{
+		printf("\n%d * %d = %d",no,i,(no*i));
+	}
+
+	getch();
+}
+
+
+
+	no  i   (no*i)
+	5 * 1 = 5
+	5 * 2 = 10
+	5 * 3 = 15
+	5 * 4 = 20
+	5 * 5 = 25
+	5 * 6 = 30
+	5 * 7 = 35
+	5 * 8 = 40
+	5 * 9 = 45
+	5 * 10 = 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

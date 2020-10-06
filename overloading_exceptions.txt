@@ -1,0 +1,6 @@
+exception to overloading :-
+
+class member operator (.,.*);
+scope reolution;
+sizeof operator;
+conditional operator
